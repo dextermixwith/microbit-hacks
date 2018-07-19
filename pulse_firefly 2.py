@@ -11,7 +11,7 @@ flash = [Image().invert()*(i/9) for i in range(9, -1, -1)]
 # The radio won't work unless it's switched on.
 radio.on()
 radio.config(channel = 50)
-radio.config(power = 2)
+radio.config(power = 1)
 
 np = neopixel.NeoPixel(pin0, 24)
 
